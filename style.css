@@ -155,8 +155,8 @@ body::before {
 }
 
 .code-box {
-  width: clamp(48px, 13vw, 62px);
-  height: clamp(56px, 15vw, 72px);
+  width: clamp(42px, 11vw, 56px);
+  height: clamp(50px, 13vw, 66px);
   background-color: #141419;
   border: 2px solid #2a2a32;
   border-radius: 6px;

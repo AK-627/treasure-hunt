@@ -14,7 +14,7 @@
   //     3. Copy the hex string it prints
   //     4. Paste it below as the new CORRECT_HASH
   // ──────────────────────────────────────────
-  var CORRECT_HASH = 'c643d64c02106a8d199d24ffd614a1e68d59105668e77cd592707110a7579965';
+  var CORRECT_HASH = '89429d8f4d3b84a8265ed5c93dcfbae7a24c722d2a1782f1d37752c376759e52';
   // ──────────────────────────────────────────
 
   // --- SHA-256 helper (uses built-in browser crypto) ---
@@ -125,8 +125,8 @@
     }
 
     // Check all 5 letters are filled
-    if (entered.length < 5) {
-      feedback.textContent = 'Enter all 5 letters';
+    if (entered.length < 6) {
+      feedback.textContent = 'Enter all 6 letters';
       feedback.className = 'feedback wrong';
       codeBoxes.forEach(function (b) {
         if (b.value === '') b.classList.add('error');
